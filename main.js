@@ -27,11 +27,11 @@ if(altura < 0){
 
 if(imc <= 18.5){
     respuesta.innerHTML =  "Esta por debajo el peso normal " + "</br>" +  "Su indice de Masa corporal es " + imc;
-    sugerencia.innerHTML = "Debrias cunsultar con un profesional";
+    sugerencia.innerHTML = "Deberías cunsultar con un Profesional";
 
 } else if(imc >= 25){
     respuesta.innerHTML = "Esta por Encima el peso normal" + "</br>" + "Su indice de Masa corporal es " + imc;
-    sugerencia.innerHTML = "Debrias cunsultar con un profesional";
+    sugerencia.innerHTML = "Deberías cunsultar con un Profesional";
 }   else if(imc >= 18.5 && imc <= 25){
     
     respuesta.innerHTML =  "Esta dentro el peso normal para su altura" + "</br>" + "Su indice de Masa corporal es " + imc;
