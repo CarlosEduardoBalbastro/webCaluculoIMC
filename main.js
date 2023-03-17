@@ -20,7 +20,7 @@ function calcularIMC(){
 if(peso > 0 && peso <= 1000 || altura > 0 && altura < 5){
 
    //calcular imc
-   let imc = peso / (altura *2);
+   let imc = peso / (altura * altura);
 
 
    if(imc <= 18.5){
